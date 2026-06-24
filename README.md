@@ -1,4 +1,4 @@
-Dental X-Ray Instance Segmentation
+# Dental X-Ray Instance Segmentation
 
 
 Automated detection and segmentation of dental structures and pathologies in X-ray images using YOLOv11.
@@ -61,7 +61,7 @@ bashpython split_data.py
 bash# Nano model
 yolo segment train model=yolo11n-seg.pt data=data/data.yaml epochs=100 imgsz=640
 
-# Small model
+Small model
 yolo segment train model=yolo11s-seg.pt data=data/data.yaml epochs=100 imgsz=640 name=train-small
 
 3. Run inference on a new X-ray
