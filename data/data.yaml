@@ -1,5 +1,5 @@
 path: .
-train: images
-val: images
+train: data/images/train
+val: data/images/val
 nc: 11
 names: ['Apical Lesion', 'Main Root', 'Main Canal', 'Mesial Root', 'Mesial Canal', 'Distal Root', 'Distal Canal', 'Palatal Canal', 'Palatal Root', 'Root Canal Filling', 'decay']

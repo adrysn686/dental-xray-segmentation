@@ -1,0 +1,9 @@
+# Model weights (too large for github)
+*.pt
+
+# YOLO cache files
+*.cache
+
+# Python
+__pycache__/
+*.pyc
