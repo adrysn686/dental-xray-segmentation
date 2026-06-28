@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 About
+## About
 
 This project builds and trains an instance segmentation model on professionally annotated dental X-rays. The model identifies and outlines 11 anatomical structures and pathologies — including root canals, apical lesions, and decay — with pixel-level polygon masks.
 
@@ -13,7 +13,7 @@ Annotations were produced by a team of dental professionals who manually traced 
 
 ---
 
-## 🏷️ Classes
+## Classes
 
 | ID | Class |
 |----|-------|
@@ -31,7 +31,7 @@ Annotations were produced by a team of dental professionals who manually traced 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 dental_dataset_v4/
@@ -53,7 +53,7 @@ dental_dataset_v4/
 
 ---
 
-## 📊 Results
+## Results
 
 | Model | Epochs | Box mAP50 | Mask mAP50 | Box mAP50-95 | Mask mAP50-95 |
 |-------|--------|-----------|------------|--------------|---------------|
@@ -65,7 +65,7 @@ dental_dataset_v4/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -101,7 +101,7 @@ yolo segment predict model=runs/segment/train-4/weights/best.pt source=path/to/x
 
 ---
 
-## 🛠️ Scripts
+## Scripts
 
 | Script | Description |
 |--------|-------------|
@@ -111,7 +111,7 @@ yolo segment predict model=runs/segment/train-4/weights/best.pt source=path/to/x
 
 ---
 
-## 📋 Dataset Format
+## Dataset Format
 
 Each image has a matching `.txt` label file. Each line represents one object:
 
@@ -123,14 +123,14 @@ Coordinates are normalized to `[0, 1]` relative to image dimensions. Polygon poi
 
 ---
 
-## ⚙️ Training Hardware
+## Training Hardware
 
 - GPU: NVIDIA GeForce RTX 4060 Laptop (8GB VRAM)
 - Training time: ~17 min / 100 epochs (nano), ~22 min / 100 epochs (small)
 
 ---
 
-## 🏫 Affiliation
+## Affiliation
 
 **UCI SEPE Lab**  
 University of California, Irvine
